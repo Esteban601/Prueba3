@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 17:04-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: frontend/templates/layouts/base.html:215
+msgid "Gracias por subscribirse"
+msgstr ""
+
+#: frontend/templates/layouts/base.html:222
+msgid "Por favor escriba un correo electronico valido"
+msgstr ""
+
+#: frontend/templates/partials/banner_index.html:8
+msgid "slide1_html"
+msgstr ""
+
+#: frontend/templates/partials/banner_index.html:10
+msgid "Portafolio_t"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:5
+msgid "Canal de denuncias"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:9
+msgid "footer_2"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:9
+msgid "footer_1"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:12
+msgid "Empleo_footer"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:33
+msgid "Acerca de"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:35
+msgid "Nosotros_footer"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:36
+msgid "Historia"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:37
+msgid "Sustentabilidad"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:43
+msgid "Recursos"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:47
+msgid "Aviso de privacidad"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:49
+msgid "Código de ética"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:52
+msgid "Política de integridad"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:59
+msgid "En las redes"
+msgstr ""
+
+#: frontend/templates/partials/footer.html:72
+msgid "Todos los derechos reservados"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:8
+msgid "Modelo ASG"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:13 frontend/views.py:31
+msgid "Materialidad"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:18 frontend/views.py:41
+#: frontend/views.py:51
+msgid "Estrategia ASG"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:23
+msgid "Vinculación con los ODS"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:30
+msgid "Medio Ambiente"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:35 frontend/views.py:62
+msgid "Gestión Ambiental"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:40 frontend/views.py:72
+msgid "Gestión de Recursos"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:45 frontend/views.py:82
+msgid "Residuos"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:50 frontend/views.py:92
+msgid "Contenido Descargable (Reporte)"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:57
+msgid "Responsabilidad Social"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:62 frontend/views.py:104
+msgid "Diversidad e Inclusión"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:67 frontend/views.py:116
+msgid "Salud, Seguridad y Bienestar"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:72 frontend/views.py:128
+msgid "Compromiso Social"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:79 frontend/views.py:140
+msgid "Cadena de Suministros"
+msgstr ""
+
+#: frontend/templates/partials/menu.html:84 frontend/views.py:156
+#: frontend/views.py:158
+msgid "Contacto"
+msgstr ""
+
+#: frontend/templates/partials/slider_index.html:30
+msgid "slide1_text"
+msgstr ""
+
+#: frontend/templates/partials/slider_index.html:33
+#: frontend/templates/partials/slider_index.html:60
+msgid "Conoce más"
+msgstr ""
+
+#: frontend/templates/partials/slider_index.html:57
+msgid "slide2_text"
+msgstr ""
+
+#: frontend/templates/partials/slider_index.html:84
+msgid "slide3_text"
+msgstr ""
+
+#: frontend/templates/partials/slider_index.html:87
+msgid "Se parte del equipo"
+msgstr ""
+
+#: frontend/templates/registration/login.html:8
+msgid "Cifras Principales"
+msgstr ""
+
+#: frontend/templates/registration/login.html:18
+msgid "login5"
+msgstr ""
+
+#: frontend/templates/registration/login.html:26
+msgid "login1"
+msgstr ""
+
+#: frontend/templates/registration/login.html:26
+msgid "login2"
+msgstr ""
+
+#: frontend/templates/registration/login.html:34
+msgid "login3"
+msgstr ""
+
+#: frontend/templates/registration/login.html:38
+msgid "login4"
+msgstr ""
+
+#: frontend/templates/registration/login.html:42
+msgid "Acceder"
+msgstr ""
+
+#: frontend/views.py:21
+msgid "Inicio"
+msgstr ""
+
+#: gmurano/settings.py:156
+msgid "English"
+msgstr ""
+
+#: gmurano/settings.py:157
+msgid "Spanish"
+msgstr ""

@@ -1,0 +1,118 @@
+{% extends 'layouts/interior.html' %}
+{% load static %}
+{% block otherstyles %}
+
+{% endblock %}
+
+{% block wrapper %}
+    <div class="content-wrap">
+        <div class="container">
+            <p class="text-justify">Fibra Inn en conjunto con los gestores y las marcas hoteleras, realiza
+                periódicamente el monitoreo
+                necesario para mantener vigente el cumplimiento de la normativa ambiental aplicable a cada uno de los
+                hoteles de nuestro portafolio y minimizar, en la medida de lo posible, el uso de recursos y el impacto
+                ambiental negativo.</p>
+
+            <p class="text-justify">Así, de acuerdo con la matriz de materialidad, se atienden a través de Planes de
+                Acción los temas más
+                importantes para Fibra Inn, así como para sus grupos de interés, entre los que se encuentran: </p>
+
+            <div class="row d-flex align-items-center flex-wrap">
+                <img class="img-fluid" src="{% static 'images/bullets12.png' %}" width="3000" height="3400">
+            </div>
+
+            <h1 class="text-center tc-blue">Plan de Acción</h1>
+
+            <ul class="nav nav-tabs d-flex flex-wrap justify-content-between plan-accion" id="cadena" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active w-100" id="tab1-tab" data-toggle="tab" data-target="#tab1"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">Análisis de Riesgos
+                        Climáticos
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link w-100" id="tab2-tab" data-toggle="tab" data-target="#tab2" type="button"
+                            role="tab" aria-controls="profile" aria-selected="false">Certificaciones y sistemas de
+                        gestión
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link w-100" id="tab3-tab" data-toggle="tab" data-target="#tab3" type="button"
+                            role="tab" aria-controls="contact" aria-selected="false">Monitoreo de Impacto Ambiental
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                    <div class="row d-flex align-items-center flex-wrap">
+                        <div class="col-md-6">
+                            <p class="text-justify">Se realizaron estudios para
+                                identificar posibles riesgos
+                                climáticos en los hoteles de Fibra Inn bajo las recomendaciones del <i>Task Force on
+                                Climate-related
+                                Financial Disclosures (TCFD)</i> con el objetivo de identificar los riesgos derivados del
+                                cambio
+                                climático para el patrimonio y el modelo de negocios de Fibra Inn y con ello generar
+                                estrategias
+                                para su gestión dentro del mediano y largo plazo.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center">
+                                <img class="img-fluid" src="{% static 'images/analisis_riesgos.png' %}" width="800" height="1000">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                    <div class="row d-flex align-items-center flex-wrap">
+                        <div class="col-md-6">
+                            <p class="text-justify">Aunado al seguimiento que se
+                                da en materia de
+                                salubridad,
+                                continuamos con la gestión de temas ambientales y sociales a través de las plataformas
+                                que ofrecen
+                                las cadenas hoteleras con las que colaboramos, mismas que proveen a las marcas
+                                información sobre
+                                horas de voluntariado, consumo de energía, agua y combustibles, así como el total de
+                                emisiones de
+                                gases de efecto invernadero y residuos de cada propiedad. Estos datos son compartidos
+                                con Fibra Inn
+                                para la identificación de soluciones para la eficiencia de los edificios y generación de
+                                proyectos
+                                de mejora continua.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center">
+                                <img class="img-fluid" src="{% static 'images/certificaciones_sistemas.png' %}" width="800" height="1000">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                    <div class="row d-flex align-items-center flex-wrap">
+                        <div class="col-md-6">
+                            <p class="text-justify">Cada hotel cuenta con un responsable
+                                para la
+                                documentación diaria
+                                de los consumos de electricidad, gas y agua. Para cada hotel existe un presupuesto
+                                mensual. En
+                                revisiones mensuales de los presupuestos, se analizan oportunidades de eficiencia en los
+                                cuartos
+                                (ocupados y no ocupados) y se exploran opciones de ahorro. Los datos además se validan
+                                en visitas
+                                periódicas de calidad.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center">
+                                <img class="img-fluid" src="{% static 'images/monitoreo_ambiental.png' %}" width="800" height="1000">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block otherscripts %}
+{% endblock %}

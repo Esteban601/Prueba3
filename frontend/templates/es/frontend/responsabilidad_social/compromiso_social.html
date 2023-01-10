@@ -1,0 +1,73 @@
+{% extends 'layouts/interior.html' %}
+{% load static %}
+{% block otherstyles %}
+
+{% endblock %}
+
+{% block wrapper %}
+    <div class="content-wrap">
+        <div class="container">
+            <p class="text-justify">Debido a la emergencia sanitaria que se presentó a causa del COVID-19, las
+                actividades
+                de
+                voluntariado y apoyo que se han realizado han sido modificadas de tal manera que tengan un enfoque que
+                cumpla las
+                necesidades y se adapte a las circunstancias de cada comunidad, minimizando los impactos negativos
+                ocasionados por la pandemia. Durante 2021 llevamos a cabo las siguientes actividades en 22 de
+                nuestros hoteles.</p>
+
+            <div class="row d-flex flex-wrap align-items-center mb-4">
+                <div class="col-md-5">
+                    <div id="oc-clients"
+                         class="nobgcolor notopmargin owl-carousel owl-carousel-full image-carousel carousel-widget"
+                         data-margin="" data-loop="true" data-nav="false" data-autoplay="4000" data-items="1"
+                         data-pagi="false" data-items-xs="1"
+                         data-items-sm="1" data-items-md="1" data-items-lg="1" data-items-xl="1">
+                        <div class="oc-item">
+                            <p>Colecta de tapitas de PET para apoyar a asociaciones de niños con cáncer.</p>
+                        </div>
+                        <div class="oc-item">
+                            <p>Donación de blancos en buenas condiciones, como ropa de cama y almohadas para casas
+                                hogar,
+                                casas de ancianos, estancias de migrantes, Teletón, hospitales COVID, iglesias, entre
+                                otros.</p>
+                        </div>
+                        <div class="oc-item">
+                            <p>Donación de alimentos para médicos y enfermeras del área COVID.</p>
+                        </div>
+                        <div class="oc-item">
+                            <p>Donativo de regalos de navidad por parte de nuestros colaboradores para un albergue.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 text-center">
+                    <div id="oc-clients"
+                         class="nobgcolor notopmargin owl-carousel owl-carousel-full image-carousel carousel-widget"
+                         data-margin="" data-loop="true" data-nav="false" data-autoplay="4000" data-items="1"
+                         data-pagi="false" data-items-xs="1"
+                         data-items-sm="1" data-items-md="1" data-items-lg="1" data-items-xl="1">
+                        <div class="oc-item">
+                            <img src="{% static 'images/tapitas_pet.png' %}" alt="">
+                        </div>
+                        <div class="oc-item">
+                            <img src="{% static 'images/mantitas.png' %}" alt="">
+                        </div>
+                        <div class="oc-item">
+                            <img src="{% static 'images/alimentos_medicos.png' %}" alt="">
+                        </div>
+                        <div class="oc-item">
+                            <img src="{% static 'images/Regalos_navidad.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex align-items-center flex-wrap">
+                    <img class="img-fluid" src="{% static 'images/bullets.png' %}" width="3000" height="3400">
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block otherscripts %}
+{% endblock %}

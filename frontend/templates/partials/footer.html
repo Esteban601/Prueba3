@@ -1,0 +1,63 @@
+{% load i18n %}
+{% load static %}
+
+<footer id="site-footer" class="site-footer pt-5 pb-4 position-relative rs-footer">
+    {#    <a id="denuncia" href="#" class="octf-btn d-flex align-items-center"><i#}
+    {#            role="presentation" role="presentation"#}
+    {#            class="fa fa-commenting-o text-white"></i> {% trans 'Canal de denuncias' %}</a>#}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="about-widget">
+                    <h3 class="footer-title">Sobre Fibra Inn</h3>
+                    <div class="row text-left ml-1 mb-3">
+                        <img src="{% static 'images/logo-blanco.png' %}" alt="">
+                    </div>
+                    <p>Fibra Inn es un fideicomiso mexicano internamente administrado formado principalmente para
+                        adquirir, desarrollar y rentar un amplio grupo de propiedades destinadas al hospedaje en México
+                        para servir al viajero.</p>
+                </div>
+            </div>
+            <div class="col-md-3 cont mb-4">
+                <h3 class="footer-title">Contacto</h3>
+                <p class="news-note mb-1">Sergio Martinez</p>
+                <p class="news-note mb-1">Relación con Inversionistas</p>
+
+                <p class="news-note mb-1"><i class="fa fa-phone" aria-hidden="true"></i> Tel. +52 (81) 5000-0200</p>
+                <p class="mb-1">
+                    <a class="news-note" href="mailto:ir@fibrainn.com" style="color:#afb0b2!important"><i
+                            class="fa fa-envelope" aria-hidden="true"></i>
+                        ir@fibrainn.com</a></p>
+                <p class="mb-1">
+                    <a target="_blank" class="news-note" href="http://www.fibrainn.mx/" style="color:#afb0b2!important"><i
+                            class="fa fa-globe" aria-hidden="true"></i>
+                        Sitio Corporativo</a></p>
+
+
+            </div>
+            <div class="col-md-5 mb-4">
+                <h3 class="footer-title">Más información</h3>
+                <p class="">
+                    Reciba periódicamente información ASG relacionada con nuestra compañía.
+                </p>
+                <form class="form mb-0 text-center was-validated" method="post" id="newsletter-form-footer">
+                    <div class="form-group mb-1">
+                        <input class="col-md-8 col-sm-7 col-8" id="fieldEmail" name="email"
+                               type="email" placeholder="{% trans 'Correo electrónico' %}" required
+                               data-msg-required="" data-msg-email=""/>
+                        <button id="newsletter-submit-footer" type="submit" class="btn">Suscribirse</button>
+                    </div>
+                    <div class="alert-message-footer"></div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 align-self-center">
+                <p class="copyright text-center mb-0">
+                    © {% now 'Y' %} {% trans 'Fibra Inn - Diseñado y generado por' %}
+                    <img class="ml-2" src="{% static 'images/ir-design-white.svg' %}" width="90px" alt="">
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
