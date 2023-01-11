@@ -3,23 +3,23 @@
 {% load i18n %}
 
 <ul>
-    <li>
-        <a href="#">
-            <div>{% trans 'Modelo ASG' %}</div>
-        </a>
-        <ul>
-            <li class="{% if page == 'materialidad' %}current{% endif %}">
-                <a href="{% url 'materialidad' %}">
-                    <div>{% trans "Materialidad" %}</div>
-                </a>
-            </li>
-            <li class="{% if page == 'vinculacion-ods' %}current{% endif %}">
-                <a href="{% url 'vinculacion-ods' %}">
-                    <div>{% trans "Vinculación con los ODS" %}</div>
-                </a>
-            </li>
-        </ul>
-    </li>
+    {#    <li>#}
+    {#        <a href="#">#}
+    {#            <div>{% trans 'Modelo ASG' %}</div>#}
+    {#        </a>#}
+    {#        <ul>#}
+    {#            <li class="{% if page == 'materialidad' %}current{% endif %}">#}
+    {#                <a href="{% url 'materialidad' %}">#}
+    {#                    <div>{% trans "Materialidad" %}</div>#}
+    {#                </a>#}
+    {#            </li>#}
+    {#            <li class="{% if page == 'vinculacion-ods' %}current{% endif %}">#}
+    {#                <a href="{% url 'vinculacion-ods' %}">#}
+    {#                    <div>{% trans "Vinculación con los ODS" %}</div>#}
+    {#                </a>#}
+    {#            </li>#}
+    {#        </ul>#}
+    {#    </li>#}
     <li>
         <a href="#">
             <div>{% trans 'Medio Ambiente' %}</div>
@@ -30,21 +30,26 @@
                     <div>{% trans "Gestión Ambiental" %}</div>
                 </a>
             </li>
-            <li class="{% if page == 'gestion-recursos' %}current{% endif %}">
-                <a href="{% url 'gestion-recursos' %}">
-                    <div>{% trans "Gestión de Recursos" %}</div>
+            <li class="{% if page == 'vinculacion-ods' %}current{% endif %}">
+                <a href="{% url 'vinculacion-ods' %}">
+                    <div>{% trans "Vinculación con los ODS" %}</div>
                 </a>
             </li>
-            <li class="{% if page == 'residuos' %}current{% endif %}">
-                <a href="{% url 'residuos' %}">
-                    <div>{% trans "Residuos" %}</div>
-                </a>
-            </li>
-            <li class="{% if page == 'contenido-descargable' %}current{% endif %}">
-                <a href="{% url 'contenido-descargable' %}">
-                    <div>{% trans "Contenido Descargable (Reporte)" %}</div>
-                </a>
-            </li>
+            {#            <li class="{% if page == 'gestion-recursos' %}current{% endif %}">#}
+            {#                <a href="{% url 'gestion-recursos' %}">#}
+            {#                    <div>{% trans "Gestión de Recursos" %}</div>#}
+            {#                </a>#}
+            {#            </li>#}
+            {#            <li class="{% if page == 'residuos' %}current{% endif %}">#}
+            {#                <a href="{% url 'residuos' %}">#}
+            {#                    <div>{% trans "Residuos" %}</div>#}
+            {#                </a>#}
+            {#            </li>#}
+            {#            <li class="{% if page == 'contenido-descargable' %}current{% endif %}">#}
+            {#                <a href="{% url 'contenido-descargable' %}">#}
+            {#                    <div>{% trans "Contenido Descargable (Reporte)" %}</div>#}
+            {#                </a>#}
+            {#            </li>#}
         </ul>
     </li>
     <li>
@@ -69,11 +74,11 @@
             </li>
         </ul>
     </li>
-    <li>
-        <a href="{% url 'cadena-suministros' %}">
-            <div>{% trans 'Cadena de Suministros' %}</div>
-        </a>
-    </li>
+    {#    <li>#}
+    {#        <a href="{% url 'cadena-suministros' %}">#}
+    {#            <div>{% trans 'Cadena de Suministros' %}</div>#}
+    {#        </a>#}
+    {#    </li>#}
     <li>
         <a href="{% url 'contacto' %}">
             <div>{% trans 'Contacto' %}</div>

@@ -67,6 +67,16 @@ def gestion_ambiental(request):
 
 
 @gzip_page
+def vinculacion_ods(request):
+    context = {
+        'title': _("Vinculación con los ODS"),
+        'page': 'vinculacion-ods',
+        'imagen': staticfiles_storage.url('images/headers/Gestion-Recursos.png'),
+    }
+    return render(request, '{0}/frontend/medio_ambiente/vinculacion_ods.html'.format(request.LANGUAGE_CODE), context)
+
+
+@gzip_page
 def gestion_recursos(request):
     context = {
         'title': _("Gestión de Recursos"),
