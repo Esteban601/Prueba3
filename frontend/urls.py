@@ -10,6 +10,7 @@ urlpatterns = [
     path('vinculacion-ods', views.vinculacion_ods, name='vinculacion-ods'),
 
     path('gestion-ambiental', views.gestion_ambiental, name='gestion-ambiental'),
+    path('vinculacion-ods', views.vinculacion_ods, name='vinculacion-ods'),
     path('gestion-recursos', views.gestion_recursos, name='gestion-recursos'),
     path('residuos', views.residuos, name='residuos'),
     path('contenido-descargable', views.contenido_descargable, name='contenido-descargable'),
