@@ -1,0 +1,89 @@
+{% extends 'layouts/interior.html' %}
+{% load static %}
+{% block otherstyles %}
+
+{% endblock %}
+
+{% block wrapper %}
+    <div class="content-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Relaciones con Nuestros Colaboradores</h3>
+                    <p>Al cierre del 2021, nuestra organización está formada por un equipo de 3,038 colaboradores
+                        integrado como se muestra a continuación:</p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div id="chart1" style="width: 100%;height: 600px;"></div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div id="chart2" style="width: 100%;height: 600px;"></div>
+                </div>
+                <div class="col-12">
+                    <p>Históricamente, nuestras relaciones con los sindicatos de los cuales forman parte nuestros
+                        colaboradores
+                        han sido de mutuo respeto y bajo una comunicación bidireccional constante, en pleno respeto a la
+                        libertad de asociación, libertad sindical y el derecho a la negociación colectiva, siendo que a
+                        la fecha
+                        de este informe nunca se han suscitado huelgas o paros.</p>
+
+                    <p>Al cierre del 2021, aproximadamente el 59% de nuestros colaboradores estaban afiliados a los
+                        siguientes
+                        sindicatos: </p>
+
+                    <ul class="">
+                        <li>• Sindicato de Trabajadores de la Industria del Cemento, Cal, Asbesto, Yeso, Envases y sus
+                            Productos
+                            Similares y Conexos de la República Mexicana
+                        </li>
+                        <li>• Sindicato Mexicano de Trabajadores de la Construcción con Maquinaria, Similares y Conexos
+                            de la
+                            República Mexicana, Confederación de Trabajadores Campesinos
+                        </li>
+                        <li>• Sindicato Nacional de Trabajadores de la Actividad Comercial y sus Derivados, Agentes de
+                            Comercio,
+                            Vendedores Viajeros, Propagandistas e Impulsores de Ventas de la República Mexicana
+                        </li>
+                        <li>• Sindicato Progresista de Trabajadores de la Industria Portuaria Mexicana</li>
+                        <li>• Sindicato de Trabajadores y Empleados de Almacenes y Comercio de la República Mexicana
+                        </li>
+                        <li>• Sindicato de Trabajadores del Montaje, Construcción de Estructuras, Maquinaria, La
+                            Transformación
+                            del Metal y Energía de la República Mexicana
+                        </li>
+                        <li>• Sindicato de Trabajadores y Empleados de Centros Educativos, Recreativos y Prestadoras de
+                            Servicios en el Estado de México
+                        </li>
+                        <li>• Sindicato de Trabajadores y Empleados de Almacenes y Comercio de la República Mexicana
+                        </li>
+                        <li>• Sindicato de Trabajadores de la Construcción, Excavación, Operación, Similares, y Conexos
+                            de la
+                            República Mexicana
+                        </li>
+                    </ul>
+
+                    <p><strong>Cumplimos a cabalidad con las regulaciones y normativas en materia laboral, al tiempo que
+                        brindamos prestaciones y beneficios por encima de lo establecido por la ley.</strong></p>
+
+                    <h3>Clientes</h3>
+                    <p>Por otro lado, la Terminal del Puerto de Altamira cuenta con un Sistema de Gestión de Calidad
+                        certificado bajo la norma ISO 9001, el cual, además de ser una herramienta para la mejora
+                        sustancial en la satisfacción de las necesidades cliente, robustece la comunicación interna para
+                        poder identificar y actuar sobre los aspectos que afectan la motivación e involucramiento de
+                        nuestros colaboradores con las actividades y procesos internos.</p>
+
+                    <h3>Empleo temporal en comunidades aledañas</h3>
+                    <p>Empleamos temporalmente a 35,000 personas en Acopilco, comunidad de la Ciudad de México, ubicado
+                        en la Alcaldía Cuajimalpa. También contamos con más de 1,800 comuneros registrados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block otherscripts %}
+    <script src="{% static 'javascripts/amcharts/amcharts.js' %}"></script>
+    <script src="{% static 'javascripts/amcharts/serial.js' %}"></script>
+    <script src="{% static 'javascripts/amcharts/pie.js' %}"></script>
+    <script src="{% static 'javascripts/amcharts/contenido/responsabilidad-social.js' %}"></script>
+{% endblock %}

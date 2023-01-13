@@ -53,26 +53,9 @@
         </ul>
     </li>
     <li>
-        <a href="#">
+        <a href="{% url 'responsabilidad-social' %}">
             <div>{% trans 'Responsabilidad Social' %}</div>
         </a>
-        <ul>
-            <li class="{% if page == 'diversidad-inclusion' %}current{% endif %}">
-                <a href="{% url 'diversidad-inclusion' %}">
-                    <div>{% trans "Diversidad e Inclusión" %}</div>
-                </a>
-            </li>
-            <li class="{% if page == 'salud-seguridad-bienestar' %}current{% endif %}">
-                <a href="{% url 'salud-seguridad-bienestar' %}">
-                    <div>{% trans "Salud y Seguridad" %}</div>
-                </a>
-            </li>
-            <li class="{% if page == 'compromiso-social' %}current{% endif %}">
-                <a href="{% url 'compromiso-social' %}">
-                    <div>{% trans "Vinculación con la Comunidad" %}</div>
-                </a>
-            </li>
-        </ul>
     </li>
     {#    <li>#}
     {#        <a href="{% url 'cadena-suministros' %}">#}

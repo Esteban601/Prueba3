@@ -15,9 +15,7 @@ urlpatterns = [
     path('residuos', views.residuos, name='residuos'),
     path('contenido-descargable', views.contenido_descargable, name='contenido-descargable'),
 
-    path('diversidad-inclusion', views.diversidad_inclusion, name='diversidad-inclusion'),
-    path('salud-seguridad-bienestar', views.salud_seguridad_bienestar, name='salud-seguridad-bienestar'),
-    path('compromiso-social', views.compromiso_social, name='compromiso-social'),
+    path('responsabilidad-social', views.responsabilidad_social, name='responsabilidad-social'),
 
     path('cadena-suministros', views.cadena_suministros, name='cadena-suministros'),
 
