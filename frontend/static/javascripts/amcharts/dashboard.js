@@ -17,7 +17,6 @@ jQuery(document).ready(function($) {
     });
 });
 function callback(json) {
-    console.log(json);
     precios = json.precios;
     ipc = json.ipc;
     intradia = json.intradia;

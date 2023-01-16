@@ -109,37 +109,14 @@ def contenido_descargable(request):
 
 # Responsabilidad Social
 @gzip_page
-def diversidad_inclusion(request):
+def responsabilidad_social(request):
     context = {
-        'title': _("Diversidad e Inclusión"),
-        'page': 'diversidad-inclusion',
+        'title': _("Responsabilidad Social"),
+        'page': 'responsabilidad-social',
         'imagen': staticfiles_storage.url('images/headers/Diversidad-Inclusion.png'),
     }
     return render(request,
-                  '{0}/frontend/responsabilidad_social/diversidad_inclusion.html'.format(request.LANGUAGE_CODE),
-                  context)
-
-
-@gzip_page
-def salud_seguridad_bienestar(request):
-    context = {
-        'title': _("Salud y Seguridad"),
-        'page': 'salud-seguridad-bienestar',
-        'imagen': staticfiles_storage.url('images/headers/Salud-Seguridad-Bienestar.png'),
-    }
-    return render(request,
-                  '{0}/frontend/responsabilidad_social/salud_seguridad_bienestar.html'.format(request.LANGUAGE_CODE),
-                  context)
-
-
-@gzip_page
-def compromiso_social(request):
-    context = {
-        'title': _("Vinculación con la Comunidad"),
-        'page': 'compromiso-social',
-        'imagen': staticfiles_storage.url('images/headers/Compromiso-Social.png'),
-    }
-    return render(request, '{0}/frontend/responsabilidad_social/compromiso_social.html'.format(request.LANGUAGE_CODE),
+                  '{0}/frontend/responsabilidad_social.html'.format(request.LANGUAGE_CODE),
                   context)
 
 
