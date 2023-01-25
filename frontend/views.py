@@ -133,6 +133,18 @@ def cadena_suministros(request):
 
 
 @gzip_page
+def gobernanza(request):
+    context = {
+        'title': _("Gobernanza"),
+        'page': 'gobernanza',
+        'imagen': staticfiles_storage.url('images/headers/Diversidad-Inclusion.png'),
+    }
+    return render(request,
+                  '{0}/frontend/gobernanza.html'.format(request.LANGUAGE_CODE),
+                  context)
+
+
+@gzip_page
 def contacto(request):
     # if request.LANGUAGE_CODE == 'es':
     #     imagen = staticfiles_storage.url('images/contacto-pic.png')

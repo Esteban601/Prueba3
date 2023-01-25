@@ -16,6 +16,7 @@ urlpatterns = [
     path('contenido-descargable', views.contenido_descargable, name='contenido-descargable'),
 
     path('responsabilidad-social', views.responsabilidad_social, name='responsabilidad-social'),
+    path('gobernanza', views.gobernanza, name='gobernanza'),
 
     path('cadena-suministros', views.cadena_suministros, name='cadena-suministros'),
 
