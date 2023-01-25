@@ -178,7 +178,7 @@ def send_subscription(request):
         'Usuario ' + email + ' desea subscribirse al  sitio Finn ESG',
         'Usuario con email ' + email + " desea subscribirse",
         'it@investorcloud.net',
-        ['ir@fibrainn.mx'],
+        ['it@irstrat.com'],
         html_message=html_message
     )
 
@@ -223,7 +223,7 @@ def send_mail_contact(request):
         'Usuario anónimo desea contactar con admin del sitio Finn ESG',
         '',
         'it@investorcloud.net',
-        ['ir@fibrainn.mx'],
+        ['it@irstrat.com'],
         # ['tania.barroso@irstrat.com'],
         html_message=html_message
     )
