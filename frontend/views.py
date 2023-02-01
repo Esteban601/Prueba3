@@ -50,7 +50,7 @@ def vinculacion_ods(request):
     context = {
         'title': _("Vinculación con los ODS"),
         'page': 'vinculacion-ods',
-        'imagen': staticfiles_storage.url('images/headers/Vinculacion-ODS.png'),
+        'imagen': staticfiles_storage.url('images/headers/ODS_h.jpg'),
     }
     return render(request, '{0}/frontend/modelo_asg/vinculacion_ods.html'.format(request.LANGUAGE_CODE), context)
 
@@ -61,7 +61,7 @@ def gestion_ambiental(request):
     context = {
         'title': _("Gestión Ambiental"),
         'page': 'gestion-ambiental',
-        'imagen': staticfiles_storage.url('images/headers/Gestion-Ambiental.png'),
+        'imagen': staticfiles_storage.url('images/headers/Gestion_ambiental_h.jpg'),
     }
     return render(request, '{0}/frontend/medio_ambiente/gestion_ambiental.html'.format(request.LANGUAGE_CODE), context)
 
@@ -113,7 +113,7 @@ def responsabilidad_social(request):
     context = {
         'title': _("Responsabilidad Social"),
         'page': 'responsabilidad-social',
-        'imagen': staticfiles_storage.url('images/headers/Diversidad-Inclusion.png'),
+        'imagen': staticfiles_storage.url('images/headers/Responsabilidad_social_h.jpg'),
     }
     return render(request,
                   '{0}/frontend/responsabilidad_social.html'.format(request.LANGUAGE_CODE),
@@ -137,7 +137,7 @@ def gobernanza(request):
     context = {
         'title': _("Gobernanza"),
         'page': 'gobernanza',
-        'imagen': staticfiles_storage.url('images/headers/Diversidad-Inclusion.png'),
+        'imagen': staticfiles_storage.url('images/headers/Gobernanza_h.jpg'),
     }
     return render(request,
                   '{0}/frontend/gobernanza.html'.format(request.LANGUAGE_CODE),
@@ -155,7 +155,7 @@ def contacto(request):
         'title': _("Contacto"),
         'page': 'contacto',
         'section': _('Contacto'),
-        'imagen': staticfiles_storage.url('images/headers/Contacto.png'),
+        'imagen': staticfiles_storage.url('images/headers/Contacto_h.jpg'),
 
         # 'imagen': imagen,
     }
