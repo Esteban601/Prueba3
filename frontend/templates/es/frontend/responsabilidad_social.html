@@ -1,7 +1,8 @@
 {% extends 'layouts/interior.html' %}
 {% load static %}
 {% block otherstyles %}
-
+{#    <link rel="stylesheet" href="{% static 'stylesheets/owl.carousel.css' %}">#}
+{#    <link rel="stylesheet" href="{% static 'stylesheets/css/owl.theme.default.css' %}">#}
 {% endblock %}
 
 {% block wrapper %}
@@ -32,9 +33,74 @@
                         siguientes
                         sindicatos: </p>
 
-                    <div class="text-center">
-                        <img class="img-fluid" src="{% static 'images/Leyes1.png' %}" width="1000" height="1000">
+                    <div class="" id="carousel">
+                        <div class="item"> Sindicato de Trabajadores de la Industria del Cemento, Cal, Asbesto,
+                            Yeso, Envases y sus Productos Similares y Conexos de la República Mexicana
+                        </div>
+                        <div class="item">
+                            • Sindicato Mexicano de Trabajadores de la Construcción con Maquinaria, Similares y Conexos
+                            de la República Mexicana, Confederación de Trabajadores Campesinos
+                        </div>
+                        <div class="item">
+                            • Sindicato Nacional de Trabajadores de la Actividad Comercial y sus Derivados, Agentes de
+                            Comercio, Vendedores Viajeros, Propagandistas e Impulsores de Ventas de la República
+                            Mexicana
+                        </div>
+                        <div class="item">
+                            • Sindicato Progresista de Trabajadores de la Industria Portuaria Mexicana
+                        </div>
+                        <div class="item">
+                            • Sindicato de Trabajadores y Empleados de Almacenes y Comercio de la República Mexicana
+                        </div>
+                        <div class="item">
+                            • Sindicato de Trabajadores del Montaje, Construcción de Estructuras, Maquinaria, La
+                            Transformación del Metal y Energía de la República Mexicana
+                        </div>
+                        <div class="item">
+                            • Sindicato de Trabajadores y Empleados de Centros Educativos, Recreativos y Prestadoras de
+                            Servicios en el Estado de México
+                        </div>
+                        <div class="item">
+                            • Sindicato de Trabajadores y Empleados de Almacenes y Comercio de la República Mexicana
+                        </div>
+                        <div class="item">
+                            • Sindicato de Trabajadores de la Construcción, Excavación, Operación, Similares, y Conexos
+                            de la República Mexicana
+                        </div>
                     </div>
+                    <div class="row justify-content-center">
+                        <div class=" post-gallery col-md-8 post-gallery slider valores">
+                            <div class="item text-center">
+                                <img class="w-75 mx-auto" src="{% static 'img/Infogramas_fortaleza/mision.png' %}" alt="">
+                                <!---<p class="valor-description">
+                                  Desarrollamos y administramos centros comerciales innovadores para crear emociones y
+                                  experiencias únicas a nuestros visitantes, promover el bienestar de nuestra gente y
+                                  mantener fuertes lazos con nuestros socios comerciales, creando valor a nuestros accionistas.
+                                </p>--->
+                            </div>
+                            <div class="item text-center">
+                                <img class="w-75 mx-auto" src="{% static 'img/Infogramas_fortaleza/vision.png' %}" alt="">
+                                <!---<p class="valor-description">
+                                Ser la operadora de centros comerciales más rentable de México, lo cual lograremos a través
+                                de nuestro enfoque en:
+                                <li>Ofrecer un modelo de negocio sostenible para todos nuestros grupos de interés</li>
+                                <li>Posicionar la marca Sendero como referente de satisfacción y calidad para visitantes y socios comerciales</li>
+                                <li>Innovación constante</li>
+                                <li>Talento extraordinario</li>
+                                </p>--->
+                            </div>
+                            <div class="item text-center">
+                                <img class="w-75 mx-auto" src="{% static 'img/Infogramas_fortaleza/filosofia.png' %}" alt="">
+                                <!--- <p class="valor-description">
+                                    Tener relaciones de largo plazo con clientes, inversionistas y socios, lo cual
+                                    se logra gracias al compromiso con trabajo y mejora continua en procesos y servicios en todas las áreas
+                                  </p>--->
+                            </div>
+                        </div>
+                    </div>
+                    {#                    <div class="text-center">#}
+                    {#                        <img class="img-fluid" src="{% static 'images/Leyes1.png' %}" width="1000" height="1000">#}
+                    {#                    </div>#}
                     <br><br>
                     <p class="justify-text">A los esfuerzos por integrar la sustentabilidad dentro de nuestra
                         estrategia,
@@ -64,4 +130,30 @@
     <script src="{% static 'javascripts/amcharts/serial.js' %}"></script>
     <script src="{% static 'javascripts/amcharts/pie.js' %}"></script>
     <script src="{% static 'javascripts/amcharts/contenido/responsabilidad-social.js' %}"></script>
+    <script src="{% static 'javascripts/owl.carousel.min.js' %}"></script>
+    <script>
+    $(function(){
+       $("#carousel").owlCarousel({
+            navigation: true,
+            slideSpeed: 300,
+            paginationSpeed: 400,
+            autoPlay: 3500,
+            singleItem: true,
+            pagination: false,
+            autoHeight: true,
+            transitionStyle: "slideRight"
+        });
+        $(".valores").owlCarousel({
+            navigation: true,
+            slideSpeed: 300,
+            paginationSpeed: 400,
+            autoPlay: 3500,
+            singleItem: true,
+            pagination: false,
+            autoHeight: true,
+            transitionStyle: "slideRight"
+        });
+
+    })
+    </script>
 {% endblock %}
