@@ -2,7 +2,7 @@ AmCharts.theme = AmCharts.themes.light;
 
 if (locale == "es") {
     var chart1_title = "Colaboradores por división"
-    var chart2_title = "Colaboradores por tipo de funcionesn"
+    var chart2_title = "Colaboradores por tipo de funciones"
 } else {
     var chart1_title = "Colaboradores por división"
     var chart2_title = "Colaboradores por tipo de funciones"
