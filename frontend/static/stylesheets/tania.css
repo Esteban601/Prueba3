@@ -1678,7 +1678,7 @@ ul#cadena li.nav-item {
 }
 
 ul#cadena.plan-accion li.nav-item {
-    width: 33.3%;
+    width: 20%;
 }
 
 ul#cadena > li:first-child {
@@ -1689,12 +1689,14 @@ ul#cadena .nav-item .nav-link {
     padding: 20px;
     border-radius: 0;
     position: relative;
+    height: 100%;
 }
 
 ul#cadena .nav-item.show .nav-link, ul#cadena .nav-link.active {
     color: #ffffff;
-    background-color: #569B3C;
+    background-color: #025D97;
     border-color: transparent;
+    height: 100%;
 }
 
 ul#cadena .nav-link:focus, ul#cadena .nav-link:hover {
@@ -1714,7 +1716,7 @@ ul#cadena > li > .nav-link.active:before {
     height: 0;
     border-style: solid;
     border-width: 10px 10px 0 10px;
-    border-color: #569B3C transparent transparent;
+    border-color: #025D97 transparent transparent;
 }
 
 .vertical-align-center {
