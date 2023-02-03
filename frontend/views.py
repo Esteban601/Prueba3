@@ -61,7 +61,7 @@ def gestion_ambiental(request):
     context = {
         'title': _("Gestión Ambiental"),
         'page': 'gestion-ambiental',
-        'imagen': staticfiles_storage.url('images/headers/Gestion_ambiental_h.jpg'),
+        'imagen': staticfiles_storage.url('images/headers/Gestion_ambiental_h.png'),
     }
     return render(request, '{0}/frontend/medio_ambiente/gestion_ambiental.html'.format(request.LANGUAGE_CODE), context)
 
@@ -113,7 +113,7 @@ def responsabilidad_social(request):
     context = {
         'title': _("Responsabilidad Social"),
         'page': 'responsabilidad-social',
-        'imagen': staticfiles_storage.url('images/headers/Responsabilidad_social_h.jpg'),
+        'imagen': staticfiles_storage.url('images/headers/Responsabilidad_social_h.png'),
     }
     return render(request,
                   '{0}/frontend/responsabilidad_social.html'.format(request.LANGUAGE_CODE),
@@ -137,7 +137,7 @@ def gobernanza(request):
     context = {
         'title': _("Gobernanza"),
         'page': 'gobernanza',
-        'imagen': staticfiles_storage.url('images/headers/Gobernanza_h.jpg'),
+        'imagen': staticfiles_storage.url('images/headers/Gobernanza_h.png'),
     }
     return render(request,
                   '{0}/frontend/gobernanza.html'.format(request.LANGUAGE_CODE),
@@ -155,7 +155,7 @@ def contacto(request):
         'title': _("Contacto"),
         'page': 'contacto',
         'section': _('Contacto'),
-        'imagen': staticfiles_storage.url('images/headers/Contacto_h.jpg'),
+        'imagen': staticfiles_storage.url('images/headers/Contacto_h.png'),
 
         # 'imagen': imagen,
     }
