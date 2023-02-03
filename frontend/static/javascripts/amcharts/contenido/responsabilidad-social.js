@@ -26,36 +26,36 @@ var chart1 = AmCharts.makeChart("chart1", {
     "colors": [
         '#03b7f1', '#3b5d87', '#cbcdce', '#0388cc', '#98cd48', '#e0f4fd', '#ed7028'
     ],
-    "balloonText": "[[title]]:[[percents]]%",
+    "balloonText": "[[title]][[value]] ( [[percents]]% )",
     "labelText": "[[percents]]%",
     "dataProvider": [
         {
-            "title": "Concesiones 1826",
+            "title": "Concesiones ",
             "value": 1826,
             // "radius": -40,
         },
         {
-            "title": "Terminal del Puerto de Altamira 797",
+            "title": "Terminal del Puerto de Altamira ",
             "value": 797,
             // "radius": -40
         },
         {
-            "title": "Materiales e insumos 168",
+            "title": "Materiales e insumos ",
             "value": 168,
             // "radius": -40
         },
         {
-            "title": "Construcción 44",
+            "title": "Construcción ",
             "value": 44,
             // "radius": 20
         },
         {
-            "title": "Honorarios 47",
+            "title": "Honorarios ",
             "value": 47,
             "radius": 30
         },
         {
-            "title": "Corporativo Central 156",
+            "title": "Corporativo Central ",
             "value": 156,
             "radius": 40
         },
@@ -84,31 +84,31 @@ var chart2 = AmCharts.makeChart("chart2", {
     "colors": [
         '#03b7f1', '#3b5d87', '#cbcdce', '#0388cc', '#98cd48', '#e0f4fd', '#ed7028'
     ],
-    "balloonText": "[[title]]:[[percents]]%",
+    "balloonText": "[[title]][[value]] ( [[percents]]% )",
     "labelText": "[[percents]]%",
     "dataProvider": [
         {
-            "title": "Administración 351",
+            "title": "Administración ",
             "value": 351,
             // "radius": -40,
         },
         {
-            "title": "Operaciones 2618",
+            "title": "Operaciones ",
             "value": 2618,
             // "radius": -40
         },
         {
-            "title": "Construcción e ingeniería 44",
+            "title": "Construcción e ingeniería ",
             "value": 44,
             // "radius": -40
         },
         {
-            "title": "Directivos relevantes 8",
+            "title": "Directivos relevantes ",
             "value": 8,
             // "radius": 20
         },
         {
-            "title": "Directivos 17",
+            "title": "Directivos ",
             "value": 17,
             // "radius": 40
         },
